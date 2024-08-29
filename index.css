@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.header {
+    display: flex;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 10em 0.5em 0.5em;
+    background-image: linear-gradient(200deg, #de0000,#800000) ;
+    color: #e7e7e7;
+    margin-bottom: 2.5em;
+    position: relative;
+}
+
+.header a {
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+.brasao{
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    padding-left: 2em;
+}
+
+.brasao__imagem{
+    margin-left: 0;
+    padding-left: 0;
+    height: 40px;
+    padding-top: 0.6em;
+}
+
+.portal__imagem{
+    margin-left: 0.5em;
+}
+
+.header-container{
+    display: flex;
+    margin: 0em 2em 0.5em 1em;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pre-title{
+    font-size: 15px;
+    color: #c6c6c6;
+    border-bottom: 2px solid #c6c6c6;
+    margin-bottom: 0px;
+}
+
+.header-title {
+    color: #c6c6c6;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header-subtitle{
+    display: flex;
+    gap: 20px;
+    padding: 0.5em 1em 0 1em;
+    margin-left: 36vh;
+}
+
+.header-subtitle__item{
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.header__imagens{
+    padding: 0.5em 1em 0 5em;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    padding-left: 10vh;
+    margin: 0 0;
+    gap: 10px;
+}
+
+.darkmode__imagem{
+    height: 20px;
+    border-left: 1px solid white;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.icon-gov{
+    padding: 0 2em;
+    margin: 0 2em 0.5em 0; 
+}
+
+.user__icon{
+    height: 14px;
+    padding-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.botao__texto{
+    background-color: #1351b4;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*após a inserção de novas informações, alterar essa section*/
+#search{
+    padding-bottom: 2em;
+}
+
+.content-example{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20em;
+}
+
+.container {
+    align-items: center;
+    max-width: 80vh;
+    margin: auto;
+    padding: 0.5em;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+.container__search-panel{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 1em 57vh;
+}
+
+.container__botao:checked~.lista__menu{
+    display: block;
+}
+
+.container__botao{
+    display: none;
+}
+
+.botao__menu{
+    margin-top: 0.5em;
+    display: flex;
+    padding-top: 0.5em;
+}
+
+.menu__imagem{
+    margin-top: 0.5em;
+    width: 30px;
+    height: 40px;
+}
+
+.lista__menu{
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.25);
+    position: absolute;
+    width: 50vh;
+    top: 16%;
+    left: 28%;
+    padding: 0.5em;
+    list-style: none;
+    z-index: 2;
+}
+
+.menu__item{
+    padding: 0 0.5em;
+    margin: 2% 2%;
+}
+
+.search-panel__title{
+    margin-left: 0.5em;
+    font-size: 20px;
+    height: 17px;
+    font-family: "Montserrat";
+    color: #810000;
+}
+
+.search-panel {
+    display: flex;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+#autocomplete {
+    width: 100vh;
+}
+
+.container-imagem__bandeira-londrina{
+    padding-left: 93.5vh;
+}
+
+.bandeira_londrina{
+    height: 35px;
+    width: 52px;
+    box-shadow: 0 2px 2px #570000;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-footer__container{
+    display: flex;
+    width: 160vh;
+    background-color: #770000ea ;
+    border-top: 1px solid #570000 ;
+    padding: 2em 0 0 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__menus{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-footer__servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu-footer__title{
+    margin: 2em 0 0 2.2em;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+
+.menu-servicos{
+    list-style: none;
+}
+
+.menu-footer__item-servicos{
+    margin: 3px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-footer__item-servicos-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.menu-footer__consultas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 1em;
+}
+
+.menu-consultas{
+    list-style: none;
+}
+
+.menu-footer__item-consultas{
+    margin: 3px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-footer__item-consultas-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.footer__contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos-title{
+    margin: 3em 0 0 0 ;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+
+.footer__contatos-telefone{
+    color: #e7e7e7;
+}
+
+.footer__contatos-item{
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+
+.footer__contatos-item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.box{
+    background-color: #cc000063;
+    box-shadow: inset 0px 0.5px 3px 0px #570000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 160vh;
+    height: 150px;
+    padding: 0 0 55px 0;
+    margin: 2em 0 2px 0;
+}
+
+.logo-londrina__imagem{
+    width: 150px;
+    height: 80px;
+}
+
+.footer__informações{
+    color: #e7e7e7;
+    font-weight: 300;
+}
+
+.footer__informações-gerais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer__informações-gerais__item{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0;
+}
+
+.footer__informações-gerais__item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
