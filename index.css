@@ -153,13 +153,8 @@ body {
     display: none;
 }
 
-.botao__menu{
-    margin-top: 0.5em;
-    display: flex;
-    padding-top: 0.5em;
-}
-
 .menu__imagem{
+    cursor: pointer;
     margin-top: 0.5em;
     width: 30px;
     height: 40px;
@@ -179,8 +174,54 @@ body {
 }
 
 .menu__item{
-    padding: 0 0.5em;
-    margin: 2% 2%;
+    padding: 0.5em 2em 3px 0em;
+    margin: 3px 0.5em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu__item-link{
+    padding: 0.5em 2em 3px 0em;
+    margin: 3px 0.5em;
+    color: #de0000;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+
+.menu__item-link:hover{
+    font-size: 15.5px;
+    border-bottom: solid 1px #ff0000;
+    color: #ff0000;
+    font-weight: 500;
+    transition-duration: 600ms;
+}
+
+.lista__submenu{
+    display: none;
+    background-color: #ff0000;
+    position: relative;
+    width: 50vh;
+    top: 16%;
+    left: 28%;
+    padding: 0.5em;
+    list-style: none;
+    
+}
+
+.submenu__item{
+
+}
+
+.submenu__item-link{
+
+}
+
+.submenu__item-link:hover{
+
 }
 
 .search-panel__title{
@@ -254,16 +295,9 @@ footer{
 }
 
 .menu-footer__item-servicos{
-    margin: 3px 0;
+    margin: 5px 0;
     font-size: 15px;
     font-weight: 300;
-}
-
-.menu-footer__item-servicos-link{
-    color: #e7e7e7;
-    text-decoration: none;
-    -webkit-background-clip: text;
-    background-clip: text;
 }
 
 .menu-footer__consultas{
@@ -279,16 +313,60 @@ footer{
 }
 
 .menu-footer__item-consultas{
-    margin: 3px 0;
+    margin: 5px 0;
     font-size: 15px;
     font-weight: 300;
 }
 
-.menu-footer__item-consultas-link{
+.menu-footer__item-consultas-link,
+.menu-footer__item-servicos-link{
     color: #e7e7e7;
     text-decoration: none;
     -webkit-background-clip: text;
     background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.footer__informações-gerais__item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.footer__contatos-item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.menu-footer__item-servicos-link:hover,
+.menu-footer__item-consultas-link:hover{
+    color: #008735;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 600ms;
+}
+
+.footer__contatos-item-link:hover{
+    color: #008735;
+    font-size: 17px;
+    font-weight: 600;
+    transition-duration: 600ms;
+}
+
+.footer__informações-gerais__item-link:hover{
+    color:#008735;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 600ms;
+    border-bottom: solid 1px #008735;
 }
 
 .footer__contatos{
@@ -313,16 +391,11 @@ footer{
     margin-top: 0.5em;
 }
 
-.footer__contatos-item-link{
-    color: #e7e7e7;
-    text-decoration: none;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
+
 
 .box{
     background-color: #cc000063;
-    box-shadow: inset 0px 0.5px 3px 0px #570000;
+    box-shadow:  0px 0.5px 3px 0px #570000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,8 +408,9 @@ footer{
 }
 
 .logo-londrina__imagem{
-    width: 150px;
-    height: 80px;
+    width: 250px;
+    height: 90px;
+    margin-top: 1em;
 }
 
 .footer__informações{
@@ -353,13 +427,8 @@ footer{
 }
 
 .footer__informações-gerais__item{
+    font-size: 15px;
     padding: 0 0 0 0 ;
-    margin: 0 0 0 0;
+    margin: 0 0 3px 0;
 }
 
-.footer__informações-gerais__item-link{
-    color: #e7e7e7;
-    text-decoration: none;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
