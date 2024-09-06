@@ -1,0 +1,16 @@
+.content-example{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20em;
+}
+
+.container-imagem__bandeira-londrina{
+    padding-left: 90vh;
+}
+
+.bandeira_londrina{
+    height: 35px;
+    width: 52px;
+    box-shadow: 0 2px 2px #570000;
+}

@@ -19,24 +19,30 @@
 
 <body>
     <header class="header">
-        <div class="brasao">
-            <a href="#">
-                <img src="img/Brasao_Londrina_Parana_Brasil.svg" alt="Brasão de Armas Londrina" class="brasao__imagem">
-            </a>
-            <img src="img/Portal PML.svg" class="portal__imagem">
-        </div>
-
-
-        <div class="header-subtitle">
-            <a href="#" target="_blank" class="header-subtitle__item">Portal da Transparência </a>
-            <a href="#" target="_blank" class="header-subtitle__item">Acessibilidade</a>
-            <a href="#" target="_blank" class="header-subtitle__item">Mapa do Site</a>
-        </div>
-        <div class="botoes">
-            <a href="#"><img src="img/night-mode.png" alt="luz" class="darkmode__imagem"></a>
-            <span class="icon-gov">
-                <a href="#" class="botao__texto"><img src="img/user.svg" class="user__icon">Entrar com o gov.br</a>
-            </span>
+        <div class="navbar">
+            <div class="brasao">
+                <a href="#">
+                    <img src="img/Brasao_Londrina_Parana_Brasil.svg" alt="Brasão de Armas Londrina" class="brasao__imagem">
+                </a>
+                <a href="#">
+                    <img src="img/Portal PML.svg" class="portal__imagem">
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul class="menu-navbar">
+                    <li class="menu-navbar__item"><a href="#" target="_blank" class="menu-navbar__item-link">Portal da Transparência</a></li>
+                    <li class="menu-navbar__item"><a href="#" target="_blank" class="menu-navbar__item-link">Acessibilidade</a></li>
+                    <li class="menu-navbar__item"><a href="#" target="_blank" class="menu-navbar__item-link">Mapa do Site</a></li>
+                </ul>
+            </div>
+            <div class="botoes">
+                <a href="#"><img src="img/night-mode.png" alt="luz" class="darkmode__imagem"></a>
+                <span class="icon-gov">
+                    <a href="#" class="botao__texto">
+                        <img src="img/user.svg" class="user__icon">Entrar com o gov.br
+                    </a>
+                </span>
+            </div>
         </div>
     </header>
 
@@ -48,22 +54,28 @@
             </label>
             <ul class="lista__menu">
                 <li class="menu__item"><a href="#" class="menu__item-link">Carta de Serviços</a>
+                    <div class="arrow-container"><img src="img/arrow.svg" class="arrow"></div>
                     <ul class="lista__submenu">
+                        <li class="submenu__item"><a href="#" class="submenu__item-link">Primeiro item da lista</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__item-link">Primeiro item da lista</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__item-link">Terceiro item da lista</a></li>
                         <li class="submenu__item"><a href="#" class="submenu__item-link">Primeiro item da lista</a></li>
                     </ul>
                 </li>
                 <li class="menu__item"><a href="#" class="menu__item-link">Notícias</a>
+                    <div class="arrow-container"><img src="img/arrow.svg" class="arrow"></div>
                     <ul class="lista__submenu">
                         <li class="submenu__item"><a href="#" class="submenu__item-link">Segundo item da lista</a></li>
                     </ul>
                 </li>
                 <li class="menu__item"><a href="#" class="menu__item-link">Conteúdo</a>
+                    <div class="arrow-container"><img src="img/arrow.svg" class="arrow"></div>
                     <ul class="lista__submenu">
                         <li class="submenu__item"><a href="#" class="submenu__item-link">Terceiro item da lista</a></li>
                     </ul>
                 </li>
             </ul>
-            <h2 class="search-panel__title">Serviços e Informações</h2>
+            <h2 class="search-panel__title"><a href="#" class="search-panel__title-link">Serviços e Informações</a></h2>
         </div>
     </section>
 
@@ -74,16 +86,6 @@
             </div>
         </div>
     </section>
-
-    <section>
-        <div class="content-example">
-            <h3>CONTEUDO</h3>
-        </div>
-        <div class="container-imagem__bandeira-londrina">
-            <img src="img/Bandeira_londrina.png" alt="Bandeira de Londrina" class="bandeira_londrina">
-        </div>
-    </section>
-
 
     <section>
         <script>
@@ -140,6 +142,24 @@
                 },
             });
         </script>
+    </section>
+
+    <section>
+        <div class="principais__servicos">
+            <div class="servicos">
+                <h3 class="servicos__title">Serviços Online</h3>
+            </div>
+            <div class="carta-servicos">
+                <h3 class="carta-servicos__title">Carta de Serviços</h3>
+            </div>
+            <div class="portal-transparencia">
+                <h3 class="portal-transparencia__title">Portal da Transparência</h3>
+            </div>
+        </div>
+        
+        <div class="container-imagem__bandeira-londrina">
+            <img src="img/Bandeira_londrina.png" alt="Bandeira de Londrina" class="bandeira_londrina">
+        </div>
     </section>
     
     <footer>

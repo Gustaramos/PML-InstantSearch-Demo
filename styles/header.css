@@ -1,0 +1,74 @@
+.header {
+    position: absolute;
+    z-index: 3;
+}
+
+.navbar{
+    background-image: linear-gradient(200deg, #de0000,#800000) ;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 70px;
+}
+
+.brasao__imagem{
+    width: 40px;
+}
+
+.portal__imagem{
+    width: 60px;
+    height: 50px;
+}
+
+.menu-navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    gap: 40px;
+}
+
+.menu-navbar__item{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-navbar__item-link{
+    text-decoration: none;
+    color: #c6c6c6;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.darkmode__imagem{
+    margin-top: 0.5em;
+    width: 20px;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+
+.botao__texto{
+    background-color: #1351b4;
+    border-radius: 50px;
+    padding: 10px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.user__icon{
+    height: 12px;
+}

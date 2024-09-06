@@ -1,0 +1,185 @@
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-footer__container{
+    display: flex;
+    width: 160vh;
+    background-color: #770000ea ;
+    border-top: 1px solid #570000 ;
+    padding: 2em 0 0 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__menus{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-footer__servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu-footer__title{
+    margin: 2em 0 0 2.2em;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+
+.menu-servicos{
+    list-style: none;
+}
+
+.menu-footer__item-servicos{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-footer__consultas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 1em;
+}
+
+.menu-consultas{
+    list-style: none;
+}
+
+.menu-footer__item-consultas{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-footer__item-consultas-link,
+.menu-footer__item-servicos-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.footer__informações-gerais__item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.footer__contatos-item-link{
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition-property: color, font-size;
+    transition-duration: 600ms;
+}
+
+.menu-footer__item-servicos-link:hover,
+.menu-footer__item-consultas-link:hover{
+    color: #008735;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 600ms;
+}
+
+.footer__contatos-item-link:hover{
+    color: #008735;
+    font-size: 17px;
+    font-weight: 600;
+    transition-duration: 600ms;
+}
+
+
+.footer__contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos-title{
+    margin: 3em 0 0 0 ;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+
+.footer__contatos-telefone{
+    color: #e7e7e7;
+}
+
+.footer__contatos-item{
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+
+.box{
+    background-color: #cc000063;
+    box-shadow:  0px 0.5px 3px 0px #570000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    width: 160vh;
+    height: 150px;
+    padding: 0 0 55px 0;
+    margin: 2em 0 2px 0;
+}
+
+.logo-londrina__imagem{
+    width: 250px;
+    height: 90px;
+    margin-top: 1em;
+}
+
+.footer__informações{
+    color: #e7e7e7;
+    font-weight: 300;
+}
+
+.footer__informações-gerais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer__informações-gerais__item{
+    font-size: 15px;
+    padding: 0 0 0 0 ;
+    margin: 0 0 3px 0;
+}
+
+.footer__informações-gerais__item-link{
+    border-bottom: solid 1px #e7e7e7;
+    transition: 600ms;
+}
+
+.footer__informações-gerais__item-link:hover{
+    color:#008735;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 600ms;
+    border-bottom: solid 1px #008735;
+}

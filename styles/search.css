@@ -1,0 +1,158 @@
+.container__search-panel{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15vh 0 1em 55vh;
+}
+
+.container__botao{
+    display: none;
+}
+
+.container__botao:checked~.lista__menu{
+    display:flex;
+    flex-direction: column;
+}
+
+.menu__imagem{
+    position: relative;
+    cursor: pointer;
+    margin-top: 0.5em;
+    width: 30px;
+    height: 40px;
+}
+
+.lista__menu{
+    display: none;
+    padding: 1em 20px 0 10px;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.25);
+    border-right: solid 2px #810000;
+    border-radius: 5px;
+    top: 18%;
+    width: 15vh;
+    height: 14vh;
+    list-style: none;
+    z-index: 2;
+}
+
+.menu__item{
+    padding: 1px 4px 0 1px;
+    margin: 1px 4px 0 1px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+}
+
+.menu__item-link {
+    opacity: .8;
+    color: #810000;
+    transition: 100ms;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    padding: 3px 1px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu__item,
+.menu__item-link:hover{
+    opacity: 1;
+    color: #810000;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px 0 5px 5px;
+}
+
+.menu__item:hover
+.lista__submenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.arrow-container{
+    display: none;   
+}
+
+.arrow{
+    height: 10px;
+    left: 50%;
+    margin-left: 2px;
+    
+}
+
+.menu__item:hover
+.arrow-container{
+    display: inline-flex;
+}
+
+.lista__submenu{
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.25);
+    border-right: solid 2px #810000;
+    border-radius: 5px;
+    top: 0px;
+    left: 18.3vh;
+    width: 13vw;
+    height: 20vh;
+    position: absolute;
+    margin: 0 0;
+    padding: 1em 1em 1em 0.5em; 
+    list-style: none;
+    
+} .submenu__item{
+    margin: 3px 0 10px 1em;
+    font-size: 15px;
+    transition: 100ms;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+} .submenu__item-link{
+    opacity: .8;
+    color: #810000;
+    text-decoration: none;
+}
+
+.submenu__item:hover{
+    margin-left: 20px;
+}
+
+.submenu__item-link:hover{
+    opacity: 1;
+    color: #810000;
+}
+
+.search-panel__title{
+    margin-left: 0.5em;
+    font-size: 20px;
+    height: 17px;
+    font-family: "Montserrat"; 
+}
+
+.search-panel__title-link{
+    text-decoration: none;
+    color: #810000;
+}
+
+.container {
+    align-items: center;
+    max-width: 80vh;
+    margin: auto;
+    padding: 0.5em;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+.search-panel {
+    display: flex;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+#autocomplete {
+    width: 100vh;
+}
